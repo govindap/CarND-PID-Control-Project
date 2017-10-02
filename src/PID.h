@@ -17,6 +17,10 @@ public:
   double Ki;
   double Kd;
 
+  // cte tracking
+  double prev_cte;
+  double sum_cte;
+
   /*
   * Constructor
   */
